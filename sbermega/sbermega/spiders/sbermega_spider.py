@@ -14,7 +14,7 @@ class SpiderSpider(CrawlSpider):
     name = 'sbermega'
     allowed_domains = ['sbermegamarket.ru']
     L = []
-    for i in range(1, 28):
+    for i in range(1, 29):
         L.append('https://sbermegamarket.ru/catalog/page-'+ str(i) +'?q=%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20guess')
     start_urls = L
 
